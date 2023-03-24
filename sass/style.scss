@@ -1,0 +1,25 @@
+@import "./variable/color";
+
+
+nav{
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+
+    &:hover{
+        background-color: green;
+    }
+
+    h1{
+        color: #fff;
+    }
+
+    h2{
+        color: #fff;
+
+        &:hover{
+            color: red;
+        }
+    }
+
+}
